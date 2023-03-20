@@ -1,0 +1,73 @@
+@media only screen and (max-width: 992px) {
+    .logo-screach-bar .right {
+        display:none;
+    
+        
+       }
+
+       .logo-screach-bar .left{
+        margin: auto;
+       }
+
+
+
+
+
+
+       
+   
+}
+
+/* --------------------------------------- */
+@media only screen and (max-width: 768px){
+
+    .top-nav{
+        padding: 20px 0 10px 0;
+       display: none;
+     
+    }
+
+    .logo-screach-bar .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+       }
+       .screach-form input{
+        width: 280px;
+        height: 40px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 0 10px;
+       
+    
+    }
+    .carousel-caption{
+        top:10px;
+      }
+    .carousel-caption h1{
+       
+      font-size: 22px;
+    
+      
+      }
+     .horizantal-button{
+       display: flex;
+       padding-bottom: -60px;
+      }
+      .horizantal-button .left{
+        padding: 10px 10px;
+       
+        
+      
+        
+      }
+      .horizantal-button .right{
+        padding: 10px 10px;
+        background: #87BCD9;
+       
+      }
+   
+   
+   
+}
