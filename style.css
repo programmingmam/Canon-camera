@@ -340,7 +340,489 @@ border: none;
 
   
 }
+/* HERO-CONTAINER--------------------------------------end- */
+
+
+/* -----------------sample-wrapper----------------- */
+.three-smple{
+  margin: 70px 0;
+}
+.border-sample{
+  border:1px solid #003F62;;
+  border-radius: 20px;
+}
+.three-smple-card{
+  gap: 10px;
+}
+.sample-wrapper{
+ display:flex;
+ align-items: center;
+ justify-content: space-around;
+ 
+
+   
+}
+.sample-tiitle h5{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15.38px;
+line-height: 35px;
+color: #1B5A7D;
+}
+.sample-tiitle p{
+  font-family: 'Poppins';
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size:12px;
+  line-height: 28px;
+  color: #265F7F;
+}
+
+/* -----------------sample-wrapper-----------------end */
+
+
+/* hotizantal-multiple-button------------------------------  */
+.hotizantal-inline-button{
+  margin: 10px 0 40px 0;
+}
+.hotizantal-inline-button h3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 27.38px;
+line-height: 41px;
+color: #1B5A7D;
+
+}
+.hotizantal-inline-button button{
+  border: 1px solid #EDA415;
+border-radius: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14.38px;
+line-height: 25px;
+color: #1B5A7D;
+}
+.hotizantal-inline-button button.active {
+   
+ background-color: #EDA415;
+ border: none;
+ color: #fff;
+}
+/* hotizantal-multiple-button------------------------------ end */
+
+/* product-card-------------------------------------- */
+.product-card{
+  margin: 40px 0 0 0;
+}
+.product-card h5{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15.0939px;
+line-height: 26px;
+color: #003F62;
+
+}
+.product-card p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.0939px;
+  line-height: 26px;
+  color: #4A4A4A;
+
+}
+ .border-card{
+  border: 0.983537px solid #B6B6B6;
+  border-radius:20px ;
+  padding: 6px 13px;
+ }
+ .icon-plus img{
+  width: 12px;
+  margin-top: -10px;
+ }
+/* product-card--------------------------------------end */
+
+
+/* ----------offer---------------------------- */
+.offer{
+  
+  width: 95%;
+  height: 60vh;
+  background-image: url(imgbox/bg-laptop\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: auto;
+  position: relative;
+ 
+}
+.offer-wraper{
+  position: absolute;
+ content: '';
+ top:110px;
+  text-align: center;
+ 
+}
+.offer-wraper h4{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 62px;
+  color: #2E8FC5;
+}
+.offer-wraper p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 27px;
+color: #FFFFFF;
+ 
+
+}
+/* ----------offer--close ------------------------------*/
+
+
+/* clint--review---------------------------------- */
+.clint-review{
+  margin: 5px 0 40px 0;
+}
+.slide-container{
+  max-width: 1020px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card{
+  border-radius: 25px;
+  background-color: #FFF;
+}
+.swiper-slide{
+  max-width: 290px;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 8px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #167b90;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+ 
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+   
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #FCD54A;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #EDA415;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #265DF2;
+}
+
+.swiper-navBtn{
+  color: #6E93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 30px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}
+
+/* clint--review----------------------------------end */
+
+
+
+/* company---------------------- */
+.company{
+  margin: 40px 0 20px 0;
+}
+.company-main{
+  
+  background: #E2F4FF;
+  border-radius: 20px;
+  padding: 10px 6px;
+  
+}
+.company-four{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.company-four h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.09px;
+  line-height: 33px;
+  color: #003F62;
+}
+.company-four p{
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15.09px;
+line-height: 27px;
+color: #003F62;
+
+}
+
+ 
+
+/* company-------------------------------------end---- */
+
+
+/* ---brand-name--------------- */
+.brand-name{
+  margin: 20px 0 40px 0;
+background: #E2F4FF;
+padding: 20px  0;
+}
+/* ---brand-name---------------end------------------------------ */
+
+/* box-xize--------------------------------------------- */
+.count{
+  display: flex;
+  gap: 10px;
+}
+.left-box{
+  display: flex;
+  align-items: center;
+  
+}
+.left-box h6{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.09px;
+  line-height: 32px;
+  color: #003F62;
+}
+.left-box p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.09px;
+  line-height: 32px;
+  color: #003F62;
+}
+
+.count .number{
+  width: 60px;
+height: 60px;
+background: #E2F4FF;
+border-radius:50%;
+ position: relative;
+}
+
+ .number span{
+ position: absolute;
+ content: '';
+ top: 16px;
+ left:15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.09px;
+  line-height: 33px;
+  color: #EDA415;
+  cursor: pointer;
+ 
+ 
+}
+ 
+
+/* box-xize--------------------------------------------- */
+
+
+
+
+/* news--------------------------------------------------------- */
+.latext-news{
+  margin: 20px 0 40px 0;
+}
+.news-wrapper{
+  display: flex;
+  align-items: center;
+ 
+ 
+}
+.news-details button{
+background-color: #2E8FC5;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14.38px;
+line-height: 31px;
+color: #fff;
+padding:0 5px;
+}
+
+.news-details h4{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20.38px;
+color: #1B5A7D;
+ 
+}
+.news-details p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13.1707px;
+line-height: 20px;
+
+}
+/* news------------------------------------------------------end--- */
+ 
+.fotter{
+  margin-top: 110px;
+  background: #E2F4FF;
+  padding: 20px 0 0 0;
+}
+.fotter h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19.38px;
+  line-height: 29px;
+  color: #1B5A7D;
+  
+}
+.fotter p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.38px;
+  line-height: 29px;
+  color: #1B5A7D;
+}
+/* ------------------------------------ */
+
+
+
+
+
+
+
+
+
+/* scroll -up/down -----------------------------------*/
+
  
  
 
  
+
+.scroll-top{
+  height: 60px;
+  width: 60px;
+  background-color: rgb(216, 40, 40);
+  position: fixed;
+  bottom:20px;
+  right:5px;
+  cursor: pointer;
+  border-radius:50%;
+  box-shadow:0px 0px 20px rgba(0, 0, 0, 0.336);
+  transform: scale(0.8);
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.scroll-top:hover{
+  transform: scale(1);
+}
+
+
+.scroll-top svg{
+  width: 50%;
+  color: #fff;
+
+}
+/* scroll -up/down-end---------------------------------------------- */
